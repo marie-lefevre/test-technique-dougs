@@ -39,6 +39,7 @@ SELECT
 )
 
 SELECT
+    intercom_admin_id,
     *
 FROM selection_dates
 CROSS JOIN {{ ref('int_collaborators') }}
