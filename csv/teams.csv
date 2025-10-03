@@ -1,0 +1,9 @@
+_etl_loaded_at,id,name,user_id,department
+2025-10-03 00:00:37.930844 UTC,1,Comptable Bleu,6413,accounting
+2025-10-03 00:00:37.930844 UTC,2,Comptable Vert,6415,accounting
+2025-10-03 00:00:37.930844 UTC,3,Equipe Rouge,6416,accounting
+2025-10-03 00:00:37.930844 UTC,58,Equipe Anthracite,118630,accounting
+2025-10-03 00:00:37.930844 UTC,5,Comptable Beige,20976,accounting
+2025-10-03 00:00:37.930844 UTC,16,Juriste Diamant,41418,legal
+2025-10-03 00:00:37.930844 UTC,10,Comptable Bordeaux,43948,accounting
+2025-10-03 00:00:37.930844 UTC,43,Équipe Data,99578,tech

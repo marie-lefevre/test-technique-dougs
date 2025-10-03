@@ -1,0 +1,15 @@
+_airbyte_extracted_at,id,name,type,email,avatar,team_ids,admin_ids,job_title,has_inbox_seat,away_mode_enabled,away_mode_reassign
+2025-09-29 23:13:12.562000 UTC,49284,Emma Martin,admin,emma.martin@dougs.fr,,"[931670,582225,5620761]",,,TRUE,FALSE,FALSE
+2025-09-29 23:13:12.563000 UTC,896348,Lucas Dubois,admin,lucas.dubois@dougs.fr,,[],,,FALSE,FALSE,FALSE
+2025-09-29 23:13:12.563000 UTC,763007,Chloé Lefevre,admin,chloe.lefevre@dougs.fr,,[],,,FALSE,FALSE,FALSE
+2025-09-29 23:13:12.563000 UTC,49301,Nathan Moreau,admin,nathan.moreau@dougs.fr,,[],,Comptable,FALSE,TRUE,FALSE
+2025-09-29 23:13:12.563000 UTC,941187,Léa GARCIA,admin,lea.garcia@dougs.fr,,[],,Comptable,FALSE,FALSE,FALSE
+2025-09-29 23:13:12.563000 UTC,524945,Hugo R,admin,hugo.roux@dougs.fr,,[],,JURISTE,FALSE,FALSE,FALSE
+2025-09-29 23:13:12.563000 UTC,182137,Manon Fournier,admin,manon.fournier@dougs.fr,,[],,,FALSE,FALSE,FALSE
+2025-09-29 23:13:12.563000 UTC,759369,Enzo Lembert,admin,enzo.lambert@dougs.fr,,[],,,FALSE,FALSE,FALSE
+2025-09-29 23:13:12.563000 UTC,755797,Camille Giraud,admin,camille.giraud@dougs.fr,,[],,,FALSE,FALSE,FALSE
+2025-09-29 23:13:12.563000 UTC,934201,Noah R,admin,noah.renard@dougs.fr,,"[182154,582225,5029645,5620761,6782376]",,,TRUE,FALSE,FALSE
+2025-09-29 23:13:12.563000 UTC,63692,Julie Marchand,admin,julie.marchand@gougs.fr,,"[182156,582225]",,,TRUE,FALSE,FALSE
+2025-09-29 23:13:12.563000 UTC,50111,Théo PICARD,admin,theo.picard@dougs.fr,,"[182156,582225,5620761]",,Comptable,TRUE,FALSE,FALSE
+2025-09-29 23:13:12.564000 UTC,1202760,Anna Wolf,admin,owo@easy.eu,,[],,Juriste,FALSE,FALSE,FALSE
+2025-09-29 23:13:12.564000 UTC,2089134,Sam Fari,admin,samfari@gmail.com,,[],,,FALSE,TRUE,FALSE
