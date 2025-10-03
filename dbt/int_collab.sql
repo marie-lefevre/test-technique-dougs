@@ -12,7 +12,6 @@ SELECT
     tea.team_department,
     REPLACE(SUBSTR(col.skills, 2, LENGTH(col.skills)-2), "'", "") AS skills,
     REPLACE(SUBSTR(us.flags, 2, LENGTH(us.flags)-2), "'", "") AS flags,
-    dia.ic_admin_id AS intercom_admin_id,
     col.intercom_preference,
     col.date_last_refresh
 FROM {{ ref('dim_collaborators') }} AS col
@@ -20,6 +19,5 @@ LEFT JOIN {{ ref('dim_teams') }} AS tea
     ON tea.team_id = col.team_id
 LEFT JOIN {{ ref('dim_users') }} AS us
     ON us.user_id = col.user_id
-LEFT JOIN {{ ref('dim_intercom_admins') }} AS dia 
-    ON us.email = dia.email
+
     

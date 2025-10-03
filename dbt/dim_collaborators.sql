@@ -1,5 +1,5 @@
 SELECT 
-    col.collaborator_id,
+    col.id,
     col.user_id,
     col.team_id,
     col.first_name,
@@ -9,5 +9,5 @@ SELECT
     col.suspended_at,
     col.productivity,
     col.intercom_preference,
-    col.date_last_refresh
+    col._etl_loaded_at
 FROM {{ ref('stg_collaborators') }} AS col

@@ -9,3 +9,4 @@ SELECT
     sbaia.away_mode_reassign AS away_mode_reassign,
     MAX(sbaia._airbyte_extracted_at) OVER () AS date_last_refresh
 FROM {{ source('bronze_airbyte_intercom', 'admins') }} AS sbaia
+ORDER BY 1

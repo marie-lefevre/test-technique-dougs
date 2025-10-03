@@ -1,6 +1,7 @@
 SELECT 
     CAST(col.collaborator_id AS INTEGER) AS collaborator_id,
     CAST(col.user_id AS INTEGER) AS user_id,
+    intercom_admin_id,
     col.first_name,
     col.last_name,
     col.full_name,
@@ -15,3 +16,5 @@ SELECT
     col.intercom_preference,
     DATETIME(CAST(col.date_last_refresh AS TIMESTAMP), 'Europe/Paris') AS date_last_refresh
 FROM {{ ref('int_collaborators') }} AS col
+LEFT JOIN {{ ref('dim_intercom_admins') }} AS dia 
+    ON us.email = dia.email
