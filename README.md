@@ -23,7 +23,7 @@ Dans ce projet git, tu trouveras :
 * **4 fichiers CSV** qui sont nos sources de données brutes
 * Les **codes SQL** utilisés dans notre outil **dbt**
 
-Ta **première mission** est de comprendre l’**architecture data existante** et de proposer des **améliorations** sur ce qui est en place actuellement.
+Ta **première mission** est de **comprendre comment la donnée est ingérée puis traitée chez Dougs** et de **proposer des améliorations** sur ce qui est en place actuellement, en termes de lisibilité du code sur la lisibilité et de son efficacité.
 
 Pour cela, crée une branche de travail à partir de ce *repository*. Tu feras les *commits* que tu souhaites implémenter dans cette **branche distincte**.
 
@@ -36,7 +36,7 @@ Avant le jour de l’entretien, envoie-nous par mail :
 
 ### 1. Présentation (1 à 3 pages ou slides)
 Une présentation (document ou slides) de :
-* Ta vision de l’**architecture data** présentée ici
+* Ta vision du **flux de données** présenté ici
 * Ce qui, selon toi, **ne convient pas**
 * Ce que tu **suggères d’améliorer** et **pourquoi**
 
@@ -54,5 +54,5 @@ Le **zip de ton code** avec ta **branche prête pour être *mergée*** dans `mai
 
 ## 💡 Conseils Techniques
 
-* Le DAG présenté ici a été créé spécifiquement pour ce test : il prend des données CSV pour les exporter vers un *dataset* **BigQuery** (de façon factice).
-* Nous attendons de toi que tu **améliores le code** mais **pas que tu réussisses à faire tourner le DAG**. L'objectif est l'**analyse** et la **proposition d'amélioration** de l'architecture.
+* Le DAG présenté ici a été créé spécifiquement pour ce test : il prend des données CSV pour les exporter vers un *dataset* **BigQuery** (de façon factice). Il n'a pas vocation à être exécuté.
+* L'objectif de cet exercice est d'améliorer le code en termes de compréhension, de lisibilité et de bonnes pratiques.
