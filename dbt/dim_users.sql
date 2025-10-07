@@ -8,7 +8,7 @@ SELECT
     u.deleted_at,
     u.email,
     u.role,
-    u.flags,
+    REPLACE(SUBSTR(us.flags, 2, LENGTH(us.flags)-2), "'", "") AS flags,
     u.is_signup_completed,
     u.date_last_refresh
 FROM {{ ref('stg_users') }} AS u

@@ -1,8 +1,8 @@
 SELECT
-    CAST(u.user_id AS STRING) AS user_id,
+    u.user_id AS user_id,
     CAST(u.profile_id AS STRING) AS profile_id,
     CAST(u.preferred_company_id AS STRING) AS preferred_company_id,
-    CAST(u.accounting_firm_office_id AS STRING) AS accounting_firm_office_id,
+    u.accounting_firm_office_id AS accounting_firm_office_id,
     u.created_at,
     u.suspended_at,
     u.deleted_at,
