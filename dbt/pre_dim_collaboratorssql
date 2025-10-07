@@ -4,11 +4,11 @@ SELECT
     col.team_id,
     col.first_name,
     col.last_name,
-    col.full_name,
+    CONCAT(col.first_name, ' ', col.last_name) AS full_name,
     REPLACE(SUBSTR(col.skills, 2, LENGTH(col.skills)-2), "'", "") AS skills,
     col.created_at,
     col.suspended_at,
     col.productivity,
     col.intercom_preference,
     col._etl_loaded_at
-FROM {{ ref('pre_dim_collaborators') }} AS col
+FROM {{ ref('stg_collaborators') }} AS col
